@@ -1,0 +1,275 @@
+nav{
+ font-family: sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+}
+.burger i{
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px;
+  border: 1px solid #80808045;
+  font-size: 30px;
+}
+
+
+/* FIRST CARD */
+
+ hr{
+   border: none;
+   width: 3rem;
+   height:3px;
+  background-color:#f4623a;
+ }
+.first-card{
+  padding: 40px;
+  height:60vh;
+  font-family:sans-serif;
+  color: white;
+background-image:url("../img/img.jpg");
+background-repeat: no-repeat;
+ background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+
+}
+
+.first-button button{
+  margin-top: 80px;
+   margin-bottom:20px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #f4623a;
+  height: 3.5rem;
+  width: 10rem;
+  border-radius: 20px;
+  border: none;
+}
+/* SECOND CARD */
+.second-card{
+
+  height:50vh;
+  text-align: center;
+  padding: 2rem;
+  background-color:#f4623a;
+}
+.second-h2 h2{
+  font-weight: lighter;
+  font-size: 25px;
+  color: white;
+  font-family: sans-serif;
+}
+.second-p p{
+  align-items: center;
+
+  color: white;
+  font-family: sans-serif;
+}
+.second-button button{
+  color:black;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #f8f9fa;
+  height: 3.5rem;
+  width: 10rem;
+  border-radius: 20px;
+  border: none;
+}
+.second-hr hr {
+  border: none;
+  width: 3rem;
+  height:3px;
+  color:;
+}
+
+
+/* THIRD CARD */
+
+.third-card{
+  padding: 10px;
+  text-align: center;
+}
+
+.product-icon{
+  font-size: 25px;
+  color: #f4623a;
+}
+
+.third-card-deaderis{
+  text-align: center;
+}
+
+.third-card-header h2 {
+  font-family: sans-serif;
+  margin-top:100px;
+}
+
+.product-icon{
+  font-weight: lighter;
+  font-size: 30px;
+  padding-top:70px;
+}
+.product-h1{
+  font-weight:400;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.product-content{
+  padding-left: 15px;
+  padding-right: 15px;
+  color: grey;
+  font-family: sans-serif;
+  font-size: 19px;
+}
+
+
+/* GALERIJA */
+.galerija{
+  margin-top:70px;
+}
+
+img{
+  object-fit: contain;
+width: 100%;
+height:25vh;
+}
+
+
+/* DOWNLOAD */
+.down{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  background-color:#212529;
+  height: 40vh;
+}
+.down-h2{
+  padding: 20px;
+  font-family:sans-serif;
+  color: white;
+}
+.down-btn button{
+  font-weight:700;
+  border: none;
+  border-radius: 20px;
+  width: 11rem;
+  height: 3.5rem;
+  color:black;
+  background-color: white;
+}
+
+
+/* COMTACT */
+
+.contact-h2{
+  text-align:center;
+  font-family: sans-serif;
+  margin-top:100px;
+}
+.contact-p{
+  font-size: 16px;
+  color: grey;
+  text-align:center;
+  font-family: sans-serif;
+}
+
+/* forma */
+
+.forma{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 15px 15px;
+  height: 2rem;
+  width: 70%;
+  max-width: 500px;
+  font-size: 18px;
+}
+.forma-btn button{
+
+ color: white;
+ font-weight: 600;
+ font-size: 15px;
+ background-color: #f4623a;
+ height: 3.5rem;
+ width: 27rem;
+ border-radius: 20px;
+ border: none;
+}
+textarea{
+  width: 70%;
+  max-width: 500px;
+  padding: 10px;
+  width: 80vw;
+  height: 18vh;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.footer{
+  text-align: center;
+}
+.phone{
+  padding-top:30px;
+  font-size:25px;
+}
+.footer-no p {
+ padding: 25px 30px;;
+}
+
+
+
+/* media queries */
+
+/* MOBILElele */
+@media only screen and (max-width:767px) {
+
+}
+
+
+/* TABLETKAaaaaa */
+@media only screen and (min-width:768px) {
+
+  .third-card{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+  }
+.galerija{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+}
+}
+
+
+/* DESKTOPASssss */
+@media only screen and (min-width:1281px) {
+.third-card{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.galerija{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+}
